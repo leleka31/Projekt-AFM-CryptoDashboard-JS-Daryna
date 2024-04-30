@@ -1,6 +1,6 @@
 body {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin: 30px;
+  margin: 20px;
   padding: 0;
   background: rgb(252, 70, 107);
   background: linear-gradient(
@@ -105,67 +105,107 @@ a:active {
   display: none;
 }
 
-@media screen and (max-width: 575px) {
-  body {
-    margin: 20px;
-  }
+@media screen and (min-width: 375px) and (max-width: 576px) {
   .navbar-brand {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+  }
+  .btn-outline-primary {
+    padding: 5px 10px;
+    font-size: 0.6rem;
+  }
+
+  .table {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .table th,
+  .table td {
+    padding: 0.5rem;
+    font-size: 0.5rem;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px) {
+  .navbar-brand {
+    font-size: 1.6rem;
   }
   .btn-outline-primary {
     padding: 5px 10px;
     font-size: 0.8rem;
   }
-}
 
-@media screen and (min-width: 576px) and (max-width: 767px) {
-  body {
-    margin: 25px;
+  .table {
+    width: 100%;
+    max-width: 100%;
   }
-  .navbar-brand {
-    font-size: 1.6rem;
-  }
-  .btn-outline-primary {
-    padding: 6px 12px;
-    font-size: 0.9rem;
+
+  .table th,
+  .table td {
+    padding: 0.5rem;
+    font-size: 0.7rem;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
-  body {
-    margin: 30px;
-  }
   .navbar-brand {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
   }
   .btn-outline-primary {
-    padding: 7px 14px;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+  }
+
+  .table {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .table th,
+  .table td {
+    padding: 0.5rem;
     font-size: 1rem;
   }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
-  body {
-    margin: 35px;
-  }
   .navbar-brand {
-    font-size: 1.8rem;
+    font-size: 2rem;
   }
   .btn-outline-primary {
-    padding: 8px 16px;
+    padding: 5px 10px;
     font-size: 1.1rem;
+  }
+
+  .table {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .table th,
+  .table td {
+    padding: 0.5rem;
+    font-size: 1rem;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  body {
-    margin: 40px;
-  }
   .navbar-brand {
-    font-size: 1.9rem;
+    font-size: 2rem;
   }
   .btn-outline-primary {
-    padding: 9px 18px;
-    font-size: 1.2rem;
+    padding: 5px 10px;
+    font-size: 1.1rem;
+  }
+
+  .table {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .table th,
+  .table td {
+    padding: 0.5rem;
+    font-size: 1rem;
   }
 }
