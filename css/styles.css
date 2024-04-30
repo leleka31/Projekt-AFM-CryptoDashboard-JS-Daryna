@@ -1,5 +1,5 @@
 body {
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   margin: 30px;
   padding: 0;
   background: rgb(252, 70, 107);
@@ -85,7 +85,7 @@ td:first-child {
   color: #ff4733;
 }
 
-#expandBtn{
+#expandBtn {
   border-width: 2px;
 }
 
